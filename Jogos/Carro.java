@@ -4,6 +4,10 @@ public class Carro {
     private int velocidade;
     private int combustivel;
 
+
+    // Recebe o modelo do carro como parâmetro obrigatório.
+
+//  Ao criar um novo carro, ele é inicializado parado (velocidade = 0) e com o tanque cheio (combustivel = 100).
     public Carro(String modelo) {
         this.modelo = modelo;
         this.velocidade = 0;
